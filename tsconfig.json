@@ -28,16 +28,26 @@
       ]
     }
   },
+  // "include": [
+  //   "next-env.d.ts",
+  //   "**/*.ts",
+  //   "**/*.tsx",
+  //   ".next/types/**/*.ts",
+  //   ".next/dev/types/**/*.ts",
+  //   "**/*.mts",
+  //   "app/layout.js",
+  //   "app/components/Navbar.jsx"
+  // ],
   "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts",
-    ".next/dev/types/**/*.ts",
-    "**/*.mts",
-    "app/layout.js",
-    "app/components/Navbar.jsx"
-  ],
+  "next-env.d.ts",
+  "**/*.ts",
+  "**/*.tsx",
+  "**/*.js",
+  "**/*.jsx",
+  ".next/types/**/*.ts",
+  ".next/dev/types/**/*.ts",
+  "**/*.mts"
+],
   "exclude": [
     "node_modules"
   ]
