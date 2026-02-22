@@ -79,6 +79,7 @@ export default function EditTopicForm({ id, title, description }) {
             if (!res.ok) {
                 throw new Error("failed to Update Topic");
             }
+            router.refresh();
             router.push("/");
         } catch (error) {
             console.log(error);
